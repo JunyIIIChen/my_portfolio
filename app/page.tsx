@@ -126,7 +126,7 @@ function MagneticSocialLink({
 export default function Personal() {
   return (
     <motion.main
-      className="space-y-24"
+      className="space-y-12"
       variants={VARIANTS_CONTAINER}
       initial="hidden"
       animate="visible"
@@ -136,8 +136,8 @@ export default function Personal() {
         transition={TRANSITION_SECTION}
       >
          <div className="flex-1">
-          <p className="text-2xl font-bold text-zinc-600 dark:text-zinc-400">
-            About Me:
+          <p className="mb-1 text-lg font-medium">
+            About Me
           </p>
         </div>
         <div className="flex-1">
@@ -150,10 +150,10 @@ export default function Personal() {
             and an explorer of new ideas, constantly seeking growth and innovation. 
           </p>
           <br />
-          <p className="text-2xl font-bold text-zinc-600 dark:text-zinc-400">
-            My Skills:
+          <p className="mb-2 mt-4 text-lg font-medium">
+            My Skills
           </p>
-          <div className="flex space-x-5 mt-2">
+          <div className="flex space-x-5 mt-3">
             <div className='group relative inline-flex shrink-0 items-center gap-[1px] rounded-full bg-zinc-200 px-2.5 py-1 text-sm text-black transition-colors duration-200 hover:bg-zinc-950 hover:text-zinc-50 dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700'>
               React.js
             </div>
@@ -185,7 +185,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">Selected Projects</h3>
+        <h3 className="mb-4 text-lg font-medium">Selected Projects</h3>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           {PROJECTS.map((project) => (
             <div key={project.name} className="space-y-2">
@@ -220,7 +220,7 @@ export default function Personal() {
           {WORK_EXPERIENCE.map((job) => (
             <a
               className="relative overflow-hidden rounded-2xl bg-zinc-300/30 p-[1px] dark:bg-zinc-600/30"
-              href={job.link}
+              // href={job.link}
               target="_blank"
               rel="noopener noreferrer"
               key={job.id}

@@ -1,4 +1,4 @@
-# Nim - Installation Guide
+# Patrick - Installation Guide
 
 ## Prerequisites
 

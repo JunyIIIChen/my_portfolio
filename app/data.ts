@@ -11,7 +11,6 @@ type WorkExperience = {
   title: string
   start: string
   end: string
-  link: string
   id: string
 }
 
@@ -34,15 +33,15 @@ export const PROJECTS: Project[] = [
       'A comprehensive solution website to help Australian household to reduce gas emission and save energy',
     link: 'https://eco-footprint-tracker.vercel.app/',
     video:
-      'https://lelabezprw18twf9.public.blob.vercel-storage.com/Loom%20_%20Free%20Screen%20%26%20Video%20Recording%20Software%20-%2025%20March%202025-9R8oAQQYoExfV4bBjQ2tuC2z4EhnmJ.mp4',
+      'https://lelabezprw18twf9.public.blob.vercel-storage.com/EcoFootprint-qo8dcxTO6Uzx0fAkBkNfD7MhtmygfX.mp4',
     id: 'project1',
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
+    name: 'Shop With Me',
+    description: 'E-commerce platform provide user with comfy shopping experience.',
     link: 'https://motion-primitives.com/',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+      'https://lelabezprw18twf9.public.blob.vercel-storage.com/ShopWithMe-yo9dUyDU0mJ3n10UmRiZSsaKviJHSU.mp4',
     id: 'project2',
   },
   {
@@ -61,7 +60,6 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     title: 'Full Stack Developer',
     start: '2024',
     end: '2025',
-    link: 'https://ibelick.com',
     id: 'work1',
   },
   {
@@ -69,7 +67,6 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     title: 'Full Stack Developer',
     start: '2024',
     end: '2024',
-    link: 'https://ibelick.com',
     id: 'work2',
   },
   {
@@ -77,7 +74,6 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     title: 'Software Engineer Intern',
     start: '2022',
     end: '2023',
-    link: 'https://ibelick.com',
     id: 'work3',
   },
 ]
